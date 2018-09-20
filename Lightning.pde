@@ -10,10 +10,10 @@ void setup()
 }
 void draw()
 {
-	while()
+	while(endX < 400)
 	{
 		endX = startX + (int)(Math.random()* 9);
-		endY = startY + (int)*Math.random()* 19 - 9);
+		endY = startY + (int)(Math.random()* 19 - 9);
 		line (startX, startY, endX, endY);
 		startX = endX;
 		startY = endY;
@@ -26,4 +26,7 @@ void mousePressed()
 	endX = 0;
 	endY = 150;
 }
+void hammer()
+{
 
+}
